@@ -1,6 +1,6 @@
 # ☕ Cafe Sales Analysis — MySQL Edition
 
-مشروع تدريبي بسيط لتحليل مبيعات كافيه وهمي باستخدام **MySQL**، 
+مشروع تدريبي بسيط لتحليل مبيعات كافيه  باستخدام **MySQL**، 
 
 ## 🗂️ هيكل قاعدة البيانات
 
@@ -69,4 +69,4 @@ mysql -u root -p < seed_data.sql
 mysql -u root -p cafe_db < queries/01_total_sales.sql
 ```
 
-أو داخل MySQL Workbench: افتح كل ملف وشغّله بالترتيب (schema ثم seed_data ثم أي استعلام).
+أو داخل MySQL Workbench: فتح كل ملف وتشغيله بالترتيب (schema ثم seed_data ثم أي استعلام).
