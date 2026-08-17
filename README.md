@@ -1,6 +1,6 @@
 # ☕ Cafe Sales Analysis — MySQL Edition
 
-مشروع تدريبي بسيط لتحليل مبيعات كافيه وهمي باستخدام **MySQL**، مصمم للمبتدئين في تحليل البيانات.
+مشروع تدريبي بسيط لتحليل مبيعات كافيه وهمي باستخدام **MySQL**، 
 
 ## 🗂️ هيكل قاعدة البيانات
 
@@ -21,7 +21,7 @@
 ```
 cafe-sql-mysql/
 ├── schema.sql               -- إنشاء قاعدة البيانات والجدول
-├── seed_data.sql             -- بيانات وهمية (86 طلب خلال سنة 2024)
+├── seed_data.sql             -- بيانات  (86 طلب خلال سنة 2024)
 ├── queries/
 │   ├── 01_total_sales.sql
 │   ├── 02_price_range.sql
@@ -70,9 +70,3 @@ mysql -u root -p cafe_db < queries/01_total_sales.sql
 ```
 
 أو داخل MySQL Workbench: افتح كل ملف وشغّله بالترتيب (schema ثم seed_data ثم أي استعلام).
-
-## 📈 خطوات تالية
-
-- أضف جدول `employees` أو `customers` وتعلم `JOIN`
-- أضف عمود `discount` وتدرّب على حسابات أكثر تعقيدًا
-- انتقل لمشروع e-commerce الأكبر (بعدة جداول وتحليل RFM)
