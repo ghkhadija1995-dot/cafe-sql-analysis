@@ -1,4 +1,4 @@
-# ☕ Cafe Sales Analysis — MySQL Edition
+# ☕ Cafe Sales Analysis — MySQL
 
 مشروع تدريبي بسيط لتحليل مبيعات كافيه  باستخدام **MySQL**، 
 
